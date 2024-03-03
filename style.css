@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #D4D4D8;
+}
+
+.container{
+    background-color: #FFFFFF;
+    font-family: "sora";
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 72px;
+    padding: 30px;
+    height: 70vh;
+}
+
+.container .items{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.text{
+    font-size: 21px;
+    opacity: .7;
+}
+
+.review img{
+    width: 100px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.review .google{
+    background: rgb(230, 230, 230);
+    width: 300px;
+    float: right;
+    padding: 14px;
+    border-radius: 4px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.face{
+    position: relative;
+    top: 110px;
+    background: rgb(230, 230, 230);
+    width: 300px;
+    padding: 14px;
+    border-radius: 4px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
